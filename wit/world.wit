@@ -1,0 +1,12 @@
+package jabratech:component-otc-option-quoter@0.1.0;
+
+world component-otc-option-quoter {
+    import jabratech:provider-ticker/index@0.1.0;
+    import jabratech:provider-ticker/ticker@0.1.5;
+
+    import jabratech:component-garman-kohlhagen/garman-kohlhagen@0.1.2;
+    import jabratech:component-iv-calculator-csi@0.1.1;
+    import jabratech:component-r2-calculator-csi@0.1.1;
+
+    export otc-option-quoter;
+}

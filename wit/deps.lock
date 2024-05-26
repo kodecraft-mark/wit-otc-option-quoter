@@ -1,0 +1,34 @@
+[common]
+url = "https://github.com/jabratech/wit-common/archive/v0.1.1.tar.gz"
+sha256 = "c41b3b626c0b24a7f5cef4b1f63aab8f1cb9255dbfaca51bfb38400550029508"
+sha512 = "ee2b3c620a11d23627e9f58631500fec4b220ab7cd5f6b718a1c7e3e426f0ed35588e2418f36f74020ce2dfeaf6a2993df88104f50442a3c8cf8ea268184acad"
+
+[garman-kohlhagen]
+url = "https://github.com/jabratech/wit-garman-kohlhagen/archive/v0.1.0.tar.gz"
+sha256 = "c9bed72f012955eb5e53002af6cacd984315a33cdd3ae3407691d4f6bf566d8e"
+sha512 = "709fe6da673d7a69d8579e1f35e75afa921e99cf64842d77c3492da663e34be98ff9bfc7f170d36bb279ccd2abdaa0deed1dd8207d62ef2bc10ca3cbff9b8316"
+
+[index-provider]
+url = "https://github.com/jabratech/wit-index-provider/archive/v0.1.0.tar.gz"
+sha256 = "dea1bdf0c5825498df625d5986bd19a16a7e7d50dc1337449f851473350373dc"
+sha512 = "6229590fb6d8196df59d209bfcde199c912d9154b66639168f3f85b2d789707a8cd30a801623407307e55fedb3ea2d2166e6fdd0d7a572c66e4929c1c051abfa"
+
+[iv-calculator-csi]
+url = "https://github.com/jabratech/wit-iv-calculator-csi/archive/v0.1.0.tar.gz"
+sha256 = "39d46fad59d14004ebe576941600c420d49e88da8bf4cc5216e51ad93ca328ce"
+sha512 = "2b051552eeb7721792a914274a08469e75d21b681c9bdf25b41edf58d4c75ef0f07b595695804d8bbe2b405d3699fe63b0b2f3ff2e465962f7d8c13a56d95c3d"
+deps = ["logging"]
+
+[logging]
+sha256 = "9676b482485bb0fd2751a390374c1108865a096b7037f4b5dbe524f066bfb06e"
+sha512 = "30a621a6d48a0175e8047c062e618523a85f69c45a7c31918da2b888f7527fce1aca67fa132552222725d0f6cdcaed95be7f16c28488d9468c0fad00cb7450b9"
+
+[r2-calculator-csi]
+url = "https://github.com/jabratech/wit-r2-calculator-csi/archive/v0.1.0.tar.gz"
+sha256 = "d89980924406cf9a742281cc688bcfa30834b09f321bb07724af3c5f873234a1"
+sha512 = "defa8dff8c4564673ba8f55d82766b737e92d85f65eda78671f9bd08c4ce492e4d4f45c81615a583295bcbd662c8a1a77a2c7e8c1c44192630e804fb205a931c"
+
+[ticker-provider]
+url = "https://github.com/jabratech/wit-ticker-provider/archive/v0.1.5.tar.gz"
+sha256 = "4a65c58b62ad4336e8c4591c3d0892114d03d896a6429a05e16f31e36e4f1276"
+sha512 = "58c7ebae482b4e1c4d41a57250e5b80eb11d0dbe52eb3ed3e270620759cb96809c40b1ab5cbc6ad0dfcf1d8a2154a15d075ba583f4106ce45142aed01413d306"

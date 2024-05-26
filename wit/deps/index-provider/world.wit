@@ -1,0 +1,10 @@
+package jabratech:provider-index@0.1.0;
+
+world porvider-index {
+    
+    export index: interface {
+        get-index: func(currency: string) -> result<f64, string>;
+        get-indexes: func(currencies: list<string>) -> result<list<f64>, string>;
+    }
+    
+}

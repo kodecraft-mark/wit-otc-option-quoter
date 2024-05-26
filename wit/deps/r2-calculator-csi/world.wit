@@ -1,0 +1,7 @@
+package jabratech:component-r2-calculator-csi@0.1.0;
+
+world component-r2-calculator-csi {
+    import jabratech:provider-ticker/ticker@0.1.6;
+
+    export calculate: func(instrument-name: string) -> result<f64, string>;
+}

@@ -1,0 +1,19 @@
+package jabratech:component-garman-kohlhagen@0.1.0;
+
+interface garman-kohlhagen {
+    use jabratech:common/types@0.1.1.{option-kind};
+
+    calculate: func(
+        option-kind: option-kind, 
+        spot: f64, 
+        strike: f64, 
+        ttm: f64, 
+        r2: f64, 
+        r1: f64, 
+        iv: f64
+    ) -> result<f64, string>;
+}
+
+world component-garman-kohlhagen {
+    export garman-kohlhagen;
+}
