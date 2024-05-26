@@ -1,4 +1,4 @@
-package jabratech:component-otc-option-quoter@0.1.0;
+package jabratech:component-otc-option-quoter@0.1.1;
 
 world component-otc-option-quoter {
     import jabratech:provider-ticker/index@0.1.0;

@@ -1,10 +1,9 @@
 interface otc-option-quoter {
-    use jabratech:common/types@0.1.1.{currency, option-kind, side};
+    use jabratech:common/types@0.1.1.{option-kind, side};
 
     record request-manual-quote {
         instrument-name: string;
         amount: f64;
-        currency: currency;
         option-kind: option-kind;
         side: side;
         spot: f64;
@@ -15,7 +14,6 @@ interface otc-option-quoter {
     record request-auto-quote {
         instrument-name: string;
         amount: f64;
-        currency: currency;
         option-kind: option-kind;
         side: side;
     }
