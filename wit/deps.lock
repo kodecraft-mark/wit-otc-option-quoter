@@ -1,12 +1,12 @@
 [common]
-url = "https://github.com/jabratech/wit-common/archive/v0.1.1.tar.gz"
-sha256 = "c41b3b626c0b24a7f5cef4b1f63aab8f1cb9255dbfaca51bfb38400550029508"
-sha512 = "ee2b3c620a11d23627e9f58631500fec4b220ab7cd5f6b718a1c7e3e426f0ed35588e2418f36f74020ce2dfeaf6a2993df88104f50442a3c8cf8ea268184acad"
+url = "https://github.com/jabratech/wit-common/archive/v0.1.2.tar.gz"
+sha256 = "5f3e003bff4e2f45c6cf7caf8f0999ca07c805d278b8a44d01aee1a0a3b09655"
+sha512 = "7fdd6ac8a3d61601c8950cc8e1f4eeecfc2e0d89a8d813b6bf1b50fd9f72f151bb53904e2cbad8fe6040b17970384ecb10aac0dfec42546785b9d99d09e4c974"
 
 [garman-kohlhagen]
-url = "https://github.com/jabratech/wit-garman-kohlhagen/archive/v0.1.0.tar.gz"
-sha256 = "c9bed72f012955eb5e53002af6cacd984315a33cdd3ae3407691d4f6bf566d8e"
-sha512 = "709fe6da673d7a69d8579e1f35e75afa921e99cf64842d77c3492da663e34be98ff9bfc7f170d36bb279ccd2abdaa0deed1dd8207d62ef2bc10ca3cbff9b8316"
+url = "https://github.com/jabratech/wit-garman-kohlhagen/archive/v0.1.2.tar.gz"
+sha256 = "dbaf83bc33ebf9f320a856d78b759ce1656441905288864608ba3641ce58ff33"
+sha512 = "5221e265eac31f42cc248ead72b6c10ea3a26c61e11e2e6abb66b6089e936b860bcada82cbf5fab8f58ee169748db665925144610fe5cec09a741d9cb6db35a3"
 
 [index-provider]
 url = "https://github.com/jabratech/wit-index-provider/archive/v0.1.0.tar.gz"
@@ -14,9 +14,9 @@ sha256 = "dea1bdf0c5825498df625d5986bd19a16a7e7d50dc1337449f851473350373dc"
 sha512 = "6229590fb6d8196df59d209bfcde199c912d9154b66639168f3f85b2d789707a8cd30a801623407307e55fedb3ea2d2166e6fdd0d7a572c66e4929c1c051abfa"
 
 [iv-calculator-csi]
-url = "https://github.com/jabratech/wit-iv-calculator-csi/archive/v0.1.0.tar.gz"
-sha256 = "39d46fad59d14004ebe576941600c420d49e88da8bf4cc5216e51ad93ca328ce"
-sha512 = "2b051552eeb7721792a914274a08469e75d21b681c9bdf25b41edf58d4c75ef0f07b595695804d8bbe2b405d3699fe63b0b2f3ff2e465962f7d8c13a56d95c3d"
+url = "https://github.com/jabratech/wit-iv-calculator-csi/archive/v0.1.1.tar.gz"
+sha256 = "e077384be5da36623caba8cbc778ac669d4891c6f6d71d66ff9608d50e32ef7e"
+sha512 = "ee67cb42593650622d1b76cc770f4c142522fd1e5a14ec6482911e25d37aeefd6e7920fbe638a9943985bf630535d7127b362cb2274b7add1476ee5e692e161f"
 deps = ["logging"]
 
 [logging]
@@ -24,9 +24,9 @@ sha256 = "9676b482485bb0fd2751a390374c1108865a096b7037f4b5dbe524f066bfb06e"
 sha512 = "30a621a6d48a0175e8047c062e618523a85f69c45a7c31918da2b888f7527fce1aca67fa132552222725d0f6cdcaed95be7f16c28488d9468c0fad00cb7450b9"
 
 [r2-calculator-csi]
-url = "https://github.com/jabratech/wit-r2-calculator-csi/archive/v0.1.0.tar.gz"
-sha256 = "d89980924406cf9a742281cc688bcfa30834b09f321bb07724af3c5f873234a1"
-sha512 = "defa8dff8c4564673ba8f55d82766b737e92d85f65eda78671f9bd08c4ce492e4d4f45c81615a583295bcbd662c8a1a77a2c7e8c1c44192630e804fb205a931c"
+url = "https://github.com/jabratech/wit-r2-calculator-csi/archive/v0.1.1.tar.gz"
+sha256 = "cff481c853d0d906df99329b384f8d407836985ee73efd880da18ac82e824c3f"
+sha512 = "160177760c382d43664db74aa731de6bae45eae3704a18b9240ee6f3d56dc917cad5d4d4af81c40c00dcca74c5b6280ee55c9cb72b059d46ad5d3866f599ad34"
 
 [ticker-provider]
 url = "https://github.com/jabratech/wit-ticker-provider/archive/v0.1.5.tar.gz"

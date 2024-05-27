@@ -1,4 +1,4 @@
-package jabratech:common@0.1.1;
+package jabratech:common@0.1.2;
 
 // NOTE: As these types grow, we need to split them into multiple files
 interface types {
@@ -89,7 +89,7 @@ interface types {
      * - sell: Selling direction.
      * - zero: Neutral or no position.
      */
-    enum direction {
+    enum side {
         buy,
         sell,
         zero

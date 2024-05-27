@@ -1,8 +1,8 @@
-package jabratech:component-iv-calculator-csi@0.1.0;
+package jabratech:component-iv-calculator-csi@0.1.1;
 
 world component-iv-calculator-csi {
     import wasi:logging/logging;
     import jabratech:provider-ticker/ticker@0.1.6;
 
-    export calculate: func(instrument-name: string) -> result<f64, string>;
+    export calculate-iv: func(instrument-name: string) -> result<f64, string>;
 }
