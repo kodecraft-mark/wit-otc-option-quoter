@@ -1,4 +1,4 @@
-package jabratech:common@0.1.2;
+package jabratech:common;
 
 // NOTE: As these types grow, we need to split them into multiple files
 interface types {

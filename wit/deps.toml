@@ -1,8 +1,8 @@
-common = "https://github.com/jabratech/wit-common/archive/v0.1.2.tar.gz"
+common = "https://github.com/jabratech/wit-common/archive/main.tar.gz"
 
-index-provider = "https://github.com/jabratech/wit-index-provider/archive/v0.1.1.tar.gz"
-ticker-provider = "https://github.com/jabratech/wit-ticker-provider/archive/v0.1.5.tar.gz"
+index-provider = "https://github.com/jabratech/wit-index-provider/archive/main.tar.gz"
+ticker-provider = "https://github.com/jabratech/wit-ticker-provider/archive/main.tar.gz"
 
-garman-kohlhagen = "https://github.com/jabratech/wit-garman-kohlhagen/archive/v0.1.2.tar.gz"
-iv-calculator-csi = "https://github.com/jabratech/wit-iv-calculator-csi/archive/v0.1.2.tar.gz"
-r2-calculator-csi = "https://github.com/jabratech/wit-r2-calculator-csi/archive/v0.1.2.tar.gz"
+garman-kohlhagen = "https://github.com/jabratech/wit-garman-kohlhagen/archive/main.tar.gz"
+iv-calculator-csi = "https://github.com/jabratech/wit-iv-calculator-csi/archive/main.tar.gz"
+r2-calculator-csi = "https://github.com/jabratech/wit-r2-calculator-csi/archive/main.tar.gz"

@@ -1,8 +1,12 @@
-package jabratech:component-r2-calculator-csi@0.1.1;
+package jabratech:component-r2-calculator-csi;
+
+interface r2-calculator-csi {
+    calculate-r2: func(instrument-name: string) -> result<f64, string>;
+}
 
 world component-r2-calculator-csi {
     import wasi:logging/logging;
-    import jabratech:provider-ticker/ticker@0.1.6;
+    import jabratech:provider-ticker/ticker;
 
-    export calculate-r2: func(instrument-name: string) -> result<f64, string>;
+    export r2-calculator-csi;
 }

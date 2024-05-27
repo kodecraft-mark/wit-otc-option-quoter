@@ -1,5 +1,5 @@
 interface ticker {
-    use jabratech:common/types@0.1.1.{currency, greeks, instrument-kind};
+    use jabratech:common/types.{currency, greeks, instrument-kind};
 
     /**
      * Record representing the ticker information of a financial instrument.

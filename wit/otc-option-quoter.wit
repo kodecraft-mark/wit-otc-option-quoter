@@ -1,5 +1,5 @@
 interface otc-option-quoter {
-    use jabratech:common/types@0.1.2.{option-kind, side};
+    use jabratech:common/types.{option-kind, side};
 
     record request-manual-quote {
         instrument-name: string,
