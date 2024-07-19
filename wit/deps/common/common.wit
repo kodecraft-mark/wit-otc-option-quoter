@@ -36,6 +36,7 @@ interface types {
      * - display-scale: Optional display scale for the currency.
      */
     record currency {
+        id: s8,
         ticker: string,
         name: option<string>,
         is-active: option<bool>,
